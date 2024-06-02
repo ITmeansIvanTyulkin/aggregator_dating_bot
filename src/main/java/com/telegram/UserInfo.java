@@ -1,4 +1,4 @@
-package com.javarush.telegram;
+package com.telegram;
 
 public class UserInfo {
     public String name; //Имя

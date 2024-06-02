@@ -1,4 +1,4 @@
-package com.javarush.telegram;
+package com.telegram;
 
 public enum DialogMode {
     MAIN,

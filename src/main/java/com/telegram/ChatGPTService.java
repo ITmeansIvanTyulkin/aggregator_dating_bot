@@ -1,4 +1,4 @@
-package com.javarush.telegram;
+package com.telegram;
 
 import com.plexpt.chatgpt.ChatGPT;
 import com.plexpt.chatgpt.entity.chat.ChatCompletion;
