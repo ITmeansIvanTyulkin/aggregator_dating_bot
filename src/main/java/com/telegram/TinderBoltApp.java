@@ -8,7 +8,7 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 public class TinderBoltApp extends MultiSessionTelegramBot {
     public static final String TELEGRAM_BOT_NAME = "aggregator_dating_bot"; //TODO: добавь имя бота в кавычках
     public static final String TELEGRAM_BOT_TOKEN = "7083219903:AAFY6LuHSei24P2Ur947XLjVUSRPgPhsttY"; //TODO: добавь токен бота в кавычках
-    public static final String OPEN_AI_TOKEN = "sk-proj-bbiv7C8wuSuVju0nNS4VT3BlbkFJL52e32WoW31ukEsmuJuG"; //TODO: добавь токен ChatGPT в кавычках
+    public static final String OPEN_AI_TOKEN = ""; //TODO: добавь токен ChatGPT в кавычках
 
     private ChatGPTService chatGPTService = new ChatGPTService(OPEN_AI_TOKEN);
     private DialogMode dialogMode = null;
